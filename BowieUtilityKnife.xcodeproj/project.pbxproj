@@ -10,6 +10,7 @@
 		75E684791C4DCD0000D0A20E /* BowieUtilityKnife.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E684781C4DCD0000D0A20E /* BowieUtilityKnife.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75E684801C4DCD0000D0A20E /* BowieUtilityKnife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E684751C4DCD0000D0A20E /* BowieUtilityKnife.framework */; };
 		75E684851C4DCD0000D0A20E /* BowieUtilityKnifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E684841C4DCD0000D0A20E /* BowieUtilityKnifeTests.swift */; };
+		888F76C8E1365E502EB46078 /* Pods_BowieUtilityKnife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968512E635802C140FEE84D4 /* Pods_BowieUtilityKnife.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DC13556165E9CD127997163 /* Pods-BowieUtilityKnife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BowieUtilityKnife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BowieUtilityKnife/Pods-BowieUtilityKnife.debug.xcconfig"; sourceTree = "<group>"; };
 		75E684751C4DCD0000D0A20E /* BowieUtilityKnife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BowieUtilityKnife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E684781C4DCD0000D0A20E /* BowieUtilityKnife.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BowieUtilityKnife.h; sourceTree = "<group>"; };
 		75E6847A1C4DCD0000D0A20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75E6847F1C4DCD0000D0A20E /* BowieUtilityKnifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowieUtilityKnifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E684841C4DCD0000D0A20E /* BowieUtilityKnifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowieUtilityKnifeTests.swift; sourceTree = "<group>"; };
 		75E684861C4DCD0000D0A20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968512E635802C140FEE84D4 /* Pods_BowieUtilityKnife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BowieUtilityKnife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83727C5435540D63443ED7C /* Pods-BowieUtilityKnife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BowieUtilityKnife.release.xcconfig"; path = "Pods/Target Support Files/Pods-BowieUtilityKnife/Pods-BowieUtilityKnife.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888F76C8E1365E502EB46078 /* Pods_BowieUtilityKnife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +55,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B54B5CA49553D69F4A8ACD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968512E635802C140FEE84D4 /* Pods_BowieUtilityKnife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		75E6846B1C4DCD0000D0A20E = {
 			isa = PBXGroup;
 			children = (
 				75E684771C4DCD0000D0A20E /* BowieUtilityKnife */,
 				75E684831C4DCD0000D0A20E /* BowieUtilityKnifeTests */,
 				75E684761C4DCD0000D0A20E /* Products */,
+				B1C42FDC8E638136500A66CD /* Pods */,
+				0B54B5CA49553D69F4A8ACD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +101,15 @@
 			path = BowieUtilityKnifeTests;
 			sourceTree = "<group>";
 		};
+		B1C42FDC8E638136500A66CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DC13556165E9CD127997163 /* Pods-BowieUtilityKnife.debug.xcconfig */,
+				C83727C5435540D63443ED7C /* Pods-BowieUtilityKnife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,10 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75E684891C4DCD0000D0A20E /* Build configuration list for PBXNativeTarget "BowieUtilityKnife" */;
 			buildPhases = (
+				5AECFFB15F18D74BECB4664F /* Check Pods Manifest.lock */,
 				75E684701C4DCD0000D0A20E /* Sources */,
 				75E684711C4DCD0000D0A20E /* Frameworks */,
 				75E684721C4DCD0000D0A20E /* Headers */,
 				75E684731C4DCD0000D0A20E /* Resources */,
+				E4A29A527F96FDBC9361A490 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +214,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AECFFB15F18D74BECB4664F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A29A527F96FDBC9361A490 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BowieUtilityKnife/Pods-BowieUtilityKnife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75E684701C4DCD0000D0A20E /* Sources */ = {
@@ -307,6 +366,7 @@
 		};
 		75E6848A1C4DCD0000D0A20E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC13556165E9CD127997163 /* Pods-BowieUtilityKnife.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -323,6 +383,7 @@
 		};
 		75E6848B1C4DCD0000D0A20E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83727C5435540D63443ED7C /* Pods-BowieUtilityKnife.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -376,6 +437,7 @@
 				75E6848B1C4DCD0000D0A20E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75E6848C1C4DCD0000D0A20E /* Build configuration list for PBXNativeTarget "BowieUtilityKnifeTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +446,7 @@
 				75E6848E1C4DCD0000D0A20E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
