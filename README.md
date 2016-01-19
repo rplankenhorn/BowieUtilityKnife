@@ -1,6 +1,6 @@
 # BowieUtilityKnife
 
-[![CI Status](http://img.shields.io/travis/Robbie Plankenhorn/BowieUtilityKnife.svg?style=flat)](https://travis-ci.org/Robbie Plankenhorn/BowieUtilityKnife)
+[![CI Status](https://travis-ci.org/BowieUtilityKnife/BowieUtilityKnife.svg?branch=master)](https://travis-ci.org/BowieUtilityKnife/BowieUtilityKnife)
 [![Version](https://img.shields.io/cocoapods/v/BowieUtilityKnife.svg?style=flat)](http://cocoapods.org/pods/BowieUtilityKnife)
 [![License](https://img.shields.io/cocoapods/l/BowieUtilityKnife.svg?style=flat)](http://cocoapods.org/pods/BowieUtilityKnife)
 [![Platform](https://img.shields.io/cocoapods/p/BowieUtilityKnife.svg?style=flat)](http://cocoapods.org/pods/BowieUtilityKnife)
